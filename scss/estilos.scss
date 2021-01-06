@@ -1,0 +1,19 @@
+@import "variables";
+@import "fuentes";
+@import "icons";
+@import "footer";
+@import "header";
+@import "section";
+@import "main";
+
+
+
+body{         
+    background-color: $background-color;
+    font-family: $body-Font;
+}
+
+.bg-navColorPropio{
+    background-color: $background-color;
+
+}

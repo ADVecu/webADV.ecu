@@ -1,0 +1,39 @@
+.section__background{
+    background-color: $color_amarillo;
+}
+
+.section__Titulo{
+    font-family: $section-Font;
+    font-size: 4rem;
+    
+}
+
+.section__Logoadv{
+    height: 4rem;
+}
+
+.section__parrafo{
+    font-family: $section-Font;
+    font-size: 2rem;
+}
+
+.section__btn-propio{
+
+    font-family: $section-Font;
+    text-transform: uppercase;
+
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    
+}
+
+.section__btn-propio:hover {
+    background-color: $color_button_hover;
+    box-shadow: 0px 15px 20px $color_buttun_shadow;
+    color: black;
+    transform: translateY(-7px);
+  }

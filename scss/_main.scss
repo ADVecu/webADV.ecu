@@ -1,0 +1,25 @@
+
+.main__cardimagen{
+    height: 10rem;
+    margin-top: 5rem;
+}
+
+.main__btn-propio{
+
+    font-family: $section-Font;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px $color_buttun_card_shadow;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    
+}
+
+.main__btn-propio:hover {
+    background-color: $color_button_card_hover;
+    box-shadow: 0px 15px 20px $color_buttun_card_shadow;
+    color: black;
+    transform: translateY(-7px);
+  }

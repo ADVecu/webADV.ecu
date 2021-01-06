@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,700&display=swap");
+.fa-style {
+  color: white; }
+
+.bg-footer {
+  background-color: #FCEE21; }
+
+.header__Titulo {
+  font-family: "Kanit", sans-serif;
+  font-size: 3rem;
+  max-width: 655px; }
+
+.header__Parrafo {
+  max-width: 655px;
+  font-family: "Kanit", sans-serif; }
+
+.section__background {
+  background-color: #FCEE21; }
+
+.section__Titulo {
+  font-family: "Kanit", sans-serif;
+  font-size: 4rem; }
+
+.section__Logoadv {
+  height: 4rem; }
+
+.section__parrafo {
+  font-family: "Kanit", sans-serif;
+  font-size: 2rem; }
+
+.section__btn-propio {
+  font-family: "Kanit", sans-serif;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none; }
+
+.section__btn-propio:hover {
+  background-color: black;
+  box-shadow: 0px 15px 20px #5c5a00;
+  color: black;
+  transform: translateY(-7px); }
+
+.main__cardimagen {
+  height: 10rem;
+  margin-top: 5rem; }
+
+.main__btn-propio {
+  font-family: "Kanit", sans-serif;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px #252525;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none; }
+
+.main__btn-propio:hover {
+  background-color: black;
+  box-shadow: 0px 15px 20px #252525;
+  color: black;
+  transform: translateY(-7px); }
+
+body {
+  background-color: #0E0E0E;
+  font-family: "Ubuntu", sans-serif; }
+
+.bg-navColorPropio {
+  background-color: #0E0E0E; }

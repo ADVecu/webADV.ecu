@@ -1,0 +1,170 @@
+/*html{
+    font-size: 62.5%; 
+}*/
+
+body{         /*Estilo Fondo de la pagina*/
+    background-color: rgb(7, 0, 0);
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.logoHeader{  /*Estilo del logo que esta en el header*/
+    width: 180px; height: 40px;
+}
+
+.imgTable{   /*Estilo de la imagen que esta en la tabla*/
+    width: 128px; height: 128px;
+    padding: 20px;
+}
+.seccionActiva{ /*Clase para cambiar el color de la barra de navegacion de la seccion activa*/
+    background-color: rgb(255, 255, 0);
+    color: black;
+}
+
+.imagenContacto{
+    height: 30rem;
+}
+
+.divFormulario{
+    display: inline;
+    height: 400px;
+    width: 400px;
+    overflow: hidden;
+    margin-left: 4rem;
+}
+
+
+h1{
+    color: white;
+    font-weight: bold;
+    font-size: 4rem;
+    font-family: 'Kanit', sans-serif;
+}
+
+h2{
+    color: white;
+    font-weight: bold;
+    font-size: 3rem;
+    font-family: 'Kanit', sans-serif;
+}
+
+h3{
+  color: white;
+}
+
+p{
+    color: white;
+    font-family: 'Kanit', sans-serif;
+    font-size: 1.5rem;
+}
+
+.bg-navPropio{
+  background: linear-gradient(to right, #000000, #434343);
+}
+#formularioContacto{
+    color: white;
+    font-size: 2rem;
+    height: 50rem;
+    width: 40rem;
+    display: inline-block;
+    margin-top: 2rem;
+    margin-left: 3rem;
+    padding-top: 2rem;
+}
+
+footer{
+    color: white;
+}
+
+nav{
+    font-family: 'Kanit', sans-serif;
+}
+
+
+/*Estilo flexbox productos*/  
+
+.cards {  /*Estilo padre cartas*/
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: center;
+    
+  }
+.card {
+    flex: 0 0 400px;
+    margin: 10px;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: rgb(7, 0, 0);
+
+    
+  } 
+  .card img {
+    max-width: 100%;
+  }
+  .card .text {
+    padding: 0 20px 20px;
+    text-align: center;
+  }
+  .card .text > button {
+    background: rgb(255, 230, 0);
+    border: 0;
+    color: rgb(7, 0, 0);
+    padding: 10px;
+    width: 100%;
+    font-family: 'Kanit', sans-serif;
+    font-size: 1 rem;
+    }
+
+    .card .text > button:hover {
+      transform: scale(1.2, 1.2);
+      }
+
+/*Estilo GRID Index*/
+
+.grid { 
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 20px;
+    width: 80rem;
+    }
+    
+  .grid > article {
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+  }
+  .grid > article img {
+    max-width: 100%;
+    
+  }
+  .text {
+    padding: 0 20px 20px;
+  }
+  .text > button {
+    background: gray;
+    border: 0;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    }
+
+  .text > button:hover {
+    transform: scale(1.2, 1.2);
+      }
+
+  .grid > article:nth-child(1) {
+    grid-column: span 2;
+    grid-row: span 2;
+  }
+  .w-100 {
+    width: 100% !important;
+    height: 75vh;
+  }
+
+ @keyframes animacionNav {
+    0%   {background-color: white; color: white;}
+    25%  {background-color: gray; color: white;}
+    50%  {background-color: yellow;}
+    100% {background-color: yellow; color: black;}
+  }
+
+
+
