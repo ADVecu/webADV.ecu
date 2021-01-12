@@ -64,9 +64,409 @@
   color: black;
   transform: translateY(-7px); }
 
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center; }
+
+.marketing h2 {
+  font-weight: 600; }
+
+.marketing .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem; }
+
+.main__heading {
+  color: #FCEE21; }
+
+.main__texto {
+  color: white;
+  font-size: large;
+  margin-top: 1.5rem; }
+
+/* Featurettes
+------------------------- */
+.featurette-divider {
+  margin: 5rem 0;
+  /* Space out the Bootstrap <hr> more */ }
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -.05rem;
+  color: #FCEE21; }
+
+/* RESPONSIVE CSS
+  -------------------------------------------------- */
+@media (min-width: 40em) {
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4; }
+  .featurette-heading {
+    font-size: 50px; } }
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem; } }
+
+/* 
+========================================= 
+========================================= 
+
+   Bootstrapious Under Construction Template
+
+========================================= 
+========================================= */
+/*
+* 
+* =====================
+* GENERAL
+* =====================
+*
+*/
+@media (max-width: 991.98px) {
+  h1 {
+    font-size: 1.75rem !important; } }
+
+.intro-right {
+  min-height: 500px;
+  background: url("../img/pexels-photo-40120.jpg") center center no-repeat;
+  background-size: cover; }
+
+.credit {
+  margin-top: 3rem;
+  font-size: 0.8rem;
+  color: #adb5bd; }
+
+/*
+  
+  =====================
+  SOCIAL LINKS
+  =====================
+  
+  */
+.social {
+  text-align: left;
+  margin-top: 40px; }
+
+.social a {
+  margin: 0 10px 0 0;
+  color: #333;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  line-height: 40px;
+  font-size: 13px;
+  text-align: center;
+  transition: all 0.2s ease-out;
+  border: solid 1px #333; }
+
+.social a i {
+  vertical-align: bottom;
+  line-height: 40px; }
+
+.social a:hover {
+  background: transparent; }
+
+.social a:hover.facebook {
+  color: #4460ae;
+  border-color: #4460ae; }
+
+.social a:hover.youtube {
+  color: #c21f25;
+  border-color: #c21f25; }
+
+.social a:hover.twitter {
+  color: #3cf;
+  border-color: #3cf; }
+
+.social a:hover.instagram {
+  color: #cd4378;
+  border-color: #cd4378; }
+
+.social a:hover.email {
+  color: #4a7f45;
+  border-color: #4a7f45; }
+
+.social a:hover.link {
+  color: #871AFF;
+  border-color: #871AFF; }
+
+.text-small {
+  font-size: 0.9rem !important; }
+
+.text-uppercase {
+  letter-spacing: 0.2em !important; }
+
+.headings-font-family {
+  font-family: inherit !important; }
+
+.font-family-base {
+  font-family: Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !important; }
+
+/*
+  
+  =====================
+  STYLE SWITCHER FOR DEMO
+  =====================
+  
+  */
+#style-switch-button {
+  position: fixed;
+  top: 120px;
+  left: 0px;
+  border-radius: 0;
+  z-index: 2; }
+
+#style-switch {
+  width: 300px;
+  padding: 20px;
+  position: fixed;
+  top: 160px;
+  left: 0;
+  background: #fff;
+  border: solid 1px #ced4da;
+  z-index: 2000; }
+
+#style-switch h4 {
+  color: #495057; }
+
+/* ========================================= 
+     
+        THEMING OF THE BOOTSTRAP COMPONENTS           
+  
+     ========================================= 
+     
+      3 - TYPE
+      
+  */
+/*
+   * 3. TYPE  
+   */
+body {
+  font-family: Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff; }
+
+a {
+  color: #2b90d9;
+  text-decoration: none; }
+
+a:hover, a:focus {
+  color: #1c669c;
+  text-decoration: underline; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  margin-bottom: 0.5rem;
+  font-family: inherit;
+  font-weight: 700;
+  line-height: 1.2;
+  color: inherit; }
+
+h1,
+.h1 {
+  font-size: 2.5rem; }
+
+h2,
+.h2 {
+  font-size: 2rem; }
+
+h3,
+.h3 {
+  font-size: 1.75rem; }
+
+h4,
+.h4 {
+  font-size: 1.5rem; }
+
+h5,
+.h5 {
+  font-size: 1.25rem; }
+
+h6,
+.h6 {
+  font-size: 1rem; }
+
+.lead {
+  font-size: 1.25rem;
+  font-weight: 300; }
+
+.display-1 {
+  font-size: 6rem;
+  font-weight: 300;
+  line-height: 1.2; }
+
+.display-2 {
+  font-size: 5.5rem;
+  font-weight: 300;
+  line-height: 1.2; }
+
+.display-3 {
+  font-size: 4.5rem;
+  font-weight: 300;
+  line-height: 1.2; }
+
+.display-4 {
+  font-size: 3.5rem;
+  font-weight: 300;
+  line-height: 1.2; }
+
+hr {
+  border-top: 1px solid rgba(0, 0, 0, 0.1); }
+
+small,
+.small {
+  font-size: 80%;
+  font-weight: 400; }
+
+mark,
+.mark {
+  padding: 0.2em;
+  background-color: #fcf8e3; }
+
+.blockquote {
+  padding: 0.5rem 1rem;
+  margin-bottom: 2rem;
+  font-size: 1.25rem;
+  border-left: 5px solid #2b90d9; }
+
+.blockquote-footer {
+  color: #6c757d; }
+
+.blockquote-footer::before {
+  content: "\2014 \00A0"; }
+
+.text-primary {
+  color: #2b90d9 !important; }
+
+a.text-primary:hover, a.text-primary:focus {
+  color: #2074b1 !important; }
+
+.cons__logo {
+  height: 500px; }
+
+input:focus ~ label, textarea:focus ~ label, input:valid ~ label, textarea:valid ~ label {
+  font-size: 0.75em;
+  color: #999;
+  top: -5px;
+  -webkit-transition: all 0.225s ease;
+  transition: all 0.225s ease; }
+
+.styled-input {
+  float: left;
+  width: 293px;
+  margin: 1rem 0;
+  position: relative;
+  border-radius: 4px; }
+
+@media only screen and (max-width: 768px) {
+  .styled-input {
+    width: 100%; } }
+
+.styled-input label {
+  color: #999;
+  padding: 1.3rem 30px 1rem 30px;
+  position: absolute;
+  top: 10px;
+  left: 0;
+  -webkit-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+  pointer-events: none; }
+
+.styled-input.wide {
+  width: 650px;
+  max-width: 100%; }
+
+input,
+textarea {
+  padding: 30px;
+  border: 0;
+  width: 100%;
+  font-size: 1rem;
+  background-color: #2d2d2d;
+  color: white;
+  border-radius: 4px; }
+
+input:focus,
+textarea:focus {
+  outline: 0; }
+
+input:focus ~ span,
+textarea:focus ~ span {
+  width: 100%;
+  -webkit-transition: all 0.075s ease;
+  transition: all 0.075s ease; }
+
+textarea {
+  width: 100%;
+  min-height: 15em; }
+
+.input-container {
+  width: 650px;
+  max-width: 100%;
+  margin: 20px auto 25px auto; }
+
+.submit-btn {
+  float: right;
+  padding: 7px 35px;
+  border-radius: 60px;
+  display: inline-block;
+  background-color: #4b8cfb;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.06), 0 2px 10px 0 rgba(0, 0, 0, 0.07);
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease; }
+
+.submit-btn:hover {
+  transform: translateY(1px);
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1), 0 1px 1px 0 rgba(0, 0, 0, 0.09); }
+
+@media (max-width: 768px) {
+  .submit-btn {
+    width: 100%;
+    float: none;
+    text-align: center; } }
+
+input[type=checkbox] + label {
+  color: #ccc;
+  font-style: italic; }
+
+input[type=checkbox]:checked + label {
+  color: #f00;
+  font-style: normal; }
+
+.contacto__titulo {
+  color: #FCEE21; }
+
+.body__background {
+  height: 100vh;
+  width: 100%;
+  background: url(/images/fondocont.jpg);
+  background-size: cover; }
+
 body {
   background-color: #0E0E0E;
-  font-family: "Ubuntu", sans-serif; }
+  font-family: "Ubuntu", sans-serif;
+  padding-top: 9rem; }
 
 .bg-navColorPropio {
   background-color: #0E0E0E; }
