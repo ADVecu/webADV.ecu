@@ -5,36 +5,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Proyectos de nuestros clientes, Prueba y desarrollo de nuevas fuciones">
     <title>ADV.ecu | Proyectos</title>                   <!--Titulo de la pagina que se ve en la pestaña del navegador-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.0/css/mdb.min.css" rel="stylesheet">
     <link rel="stylesheet" href="../css/bootstrap.min.css">
-    <link rel="stylesheet" href="../css/estilo.css">   <!--Link hoja de estilo css-->
+    <link rel="stylesheet" href="../css/estiloscss.css">   <!--Link hoja de estilo css-->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Kanit:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,700">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/a59b110723.js" crossorigin="anonymous"></script>
 </head>
 
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-navPropio" >
-        <a class="navbar-brand" href="../index.html">
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-navColorPropio" >
+
+    <div class="container-fluid">
+      <a class="navbar-brand" href="../index.html">
         <img src="../images/logosmall.png" alt="ADV.ecu" class="d-inline-block align-top" height="50px"></a>
         
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
       
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="../index.html">Inicio <span class="sr-only">(current)</span></a>
+        <div class="collapse navbar-collapse h4 " id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item p-3">
+              <a class="nav-link active" href="../index.html">Inicio <span class="sr-only">(current)</span></a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item p-3">
               <a class="nav-link" href="../pages/productos.html">Productos</a>
             </li>
-            <li class="nav-item active">
+            <li class="nav-item p-3">
               <a class="nav-link" href="../pages/proyectos.html">Proyectos <span class="sr-only">(current)</span></a>
             </li>
-            <li class="nav-item dropdown">
+            <li class="nav-item dropdown p-3">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Soporte
               </a>
@@ -45,28 +51,109 @@
                 <a class="dropdown-item" href="../pages/contacto.html">Contacto</a>
               </div>
             </li>
-            
           </ul>
-          <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-          </form>
         </div>
-      </nav>
+
+    </div>
+  </nav>
     </header>  
     
-    <footer>                                   <!--Defina el final del documento-->
-        <nav>
-            <ul>
-                <li><a href="index.html" ><img src="../images/logosmall.png" alt="Logo" class="logoHeader"></a></li>
-                <li><a href="https://www.instagram.com/adv.ecu/" target="blank">Instagram</a></li>
-                <li><a href="https://www.youtube.com/channel/UC6ey-1acFwfYcqHtH5oavgA" target="blank">Youtube</a></li>
-            </ul>
-        </nav>  
+
+    <main>
+      <div class="container-fluid">
+        <div class="row min-vh-100">
+          <div class="col-xl-5 col-lg-6 col-md-8 p-5 p-lg-4 mx-auto d-flex align-items-center">
+            <div>
+              <p> <img src="../images/logoConst.png" alt="Template Logo" class="img-fluid"></p>
+              <h1 class="text-uppercase text-white">En construccion.</h1>
+              <p class="lead text-white">Estamos trabajando con pasion para traerte lo mejor.</p>
+              <p class="text-white">Te invitamos a seguirnos en nuestras redes sociales, también nos pueden contactar llenado el formulario de contacto, nos comunicaremos tan pronto nos sea posible!a</p>
+              <a class="btn btn-light btn-lg main__btn-propio" href="/pages/contacto.html" role="button">Contacto</a>
+              <p class="credit">&copy; 2020 Daniel Gaviria | Template by <a href="https://bootstrapious.com/landing-pages" class="external text-reset">Bootstrapious</a>  </p>
+              <!-- Please do not remove the backlink to bootstrapious unless your Attribution-Free License @ https://bootstrapious.com/attribution-free-license. It is part of the license conditions. Thanks for understanding :) -->
+            </div>
+          </div>
+          <div style="background-image: url('../images/construccion.jpg');" class="col-xl-6 col-lg-5 col-md-4 intro-right"></div>
+        </div>
+      </div>
+      
+
+    </main>
+
+
+    <footer class="page-footer bg-dark mt-5">
+
+      <div class="bg-footer">
+        <div class="container">
+          <div class="row py-4 d-flex align-items-center">
+           
+            <div class="col-md-12 text-center"> 
+                <a href="#"><i class="fab fa-facebook-f black-text mr-4 fa-3x"> </i></a>         
+                <a href="#"><i class="fab fa-twitter black-text mr-4 fa-3x"> </i></a>
+                <a href="#"><i class="fab fa-google-plus-g black-text mr-4 fa-3x"> </i></a>
+                <a href="#"><i class="fab fa-linkedin-in black-text mr-4 fa-3x"> </i></a>
+                <a href="#"><i class="fab fa-instagram black-text fa-3x"> </i></a> 
+               </div>
+    
+         </div>
+        </div>
+      </div>
+    
+      <div class="container text-center text-md-left mt-5">
+        <div class="row">
+    
+          <div class="col-md-3 mx-auto mb-4">
+            <h6 class="text-uppercase font-weight-bold">ADV.ecu</h6>
+            <hr class="bg-footer mb-4 mt-0 d-inline-block mx-auto" style="width: 125px; height: 2px">
+            <p class="mt-2">Tableros digitales para vehiculos automotores, gestion electronica del sistema electrico</p>
+          </div>
+    
+          <div class="col-md-2 mx-auto mb-4">
+            <h6 class="text-uppercase font-weight-bold">Productos</h6>
+            <hr class="bg-footer mb-4 mt-0 d-inline-block mx-auto" style="width: 85px; height: 2px">
+           
+             <ul class="list-unstyled">
+              <li class="my-2"><a href="#">Producto 1</a></li>        
+              <li class="my-2"><a href="#">Producto 2</a></li>
+              <li class="my-2"><a href="#">Producto 3</a></li>
+              <li class="my-2"> <a href="#">Producto 4</a></li>         
+              </ul>
+          </div>
+      
+          <div class="col-md-2 mx-auto mb-4">
+            <h6 class="text-uppercase font-weight-bold">Menu</h6>
+            <hr class="bg-footer mb-4 mt-0 d-inline-block mx-auto" style="width: 110px; height: 2px">
+              <ul class="list-unstyled">
+                <li class="my-2"><a href="/index.html">Inicio</a></li>        
+                <li class="my-2"><a href="/pages/productos.html">Productos</a></li>
+                <li class="my-2"><a href="/pages/proyectos.html">Proyectos</a></li>
+                <li class="my-2"><a href="/pages/soporte.html">Soporte</a></li>
+                <li class="my-2"> <a href="/pages/contacto.html">Contacto</a></li> 
+              </ul>
+          </div>
+    
+          <div class="col-md-3 mx-auto mb-4">
+            <h6 class="text-uppercase font-weight-bold">Contacto</h6>
+            <hr class="bg-footer mb-4 mt-0 d-inline-block mx-auto" style="width: 75px; height: 2px">
+              <ul class="list-unstyled">
+                <li class="my-2"><i class="fas fa-home mr-3"></i> Pereira, Risaralda - Colombia</li>
+                <li class="my-2"><i class="fas fa-envelope mr-3"></i> daniel.gaviria.utp@gmail.com</li>
+                <li class="my-2"><i class="fas fa-phone mr-3"></i> + 01 234 567 88</li>
+                <li class="my-2"><i class="fas fa-print mr-3"></i> + 01 234 567 89</li>
+              </ul>
+          </div>
+        </div>
+      </div>
+    
+      <div class="footer-copyright text-center py-3">
+        <p>&copy; Copyright
+        <a href="#">Daniel Gaviria A.</a></p>
+      </div>
     </footer>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="../js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 </body>
 
 </html>

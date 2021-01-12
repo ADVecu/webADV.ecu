@@ -5,12 +5,14 @@
 @import "header";
 @import "section";
 @import "main";
-
+@import "construccion";
+@import "contacto";
 
 
 body{         
     background-color: $background-color;
     font-family: $body-Font;
+    padding-top: 9rem;
 }
 
 .bg-navColorPropio{

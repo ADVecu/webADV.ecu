@@ -10,81 +10,74 @@
     <link rel="stylesheet" href="../css/estiloscss.css">   <!--Link hoja de estilo css-->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Kanit:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,700">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/a59b110723.js" crossorigin="anonymous"></script>
 </head>
 
 
 <body>
-    <header>                               <!--Primera parte de la pagina web-->
-      <nav class="navbar navbar-expand-lg navbar-dark bg-navPropio" >
-        <a class="navbar-brand" href="../index.html">
-        <img src="../images/logosmall.png" alt="ADV.ecu" class="d-inline-block align-top" height="50px"></a>
-        
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="../index.html">Inicio <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="../pages/productos.html">Productos</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="../pages/proyectos.html">Proyectos <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Soporte
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="../pages/soporte.html">Manuales</a>
-                <a class="dropdown-item" href="../pages/soporte.html">Descargas</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="../pages/contacto.html">Contacto</a>
-              </div>
-            </li>
+    <header>                            
+      <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-navColorPropio" >
+
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../index.html">
+            <img src="../images/logosmall.png" alt="ADV.ecu" class="d-inline-block align-top" height="50px"></a>
             
-          </ul>
-          <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-          </form>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse h4 " id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item p-3">
+                  <a class="nav-link active" href="../index.html">Inicio <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item p-3">
+                  <a class="nav-link" href="../pages/productos.html">Productos</a>
+                </li>
+                <li class="nav-item p-3">
+                  <a class="nav-link" href="../pages/proyectos.html">Proyectos <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item dropdown p-3">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Soporte
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="../pages/soporte.html">Manuales</a>
+                    <a class="dropdown-item" href="../pages/soporte.html">Descargas</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="../pages/contacto.html">Contacto</a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+
         </div>
       </nav>
+
     </header>  
 
-    <main class="cards">
-        <article class="card">
-            <img src="../images/moto2.JPG" alt="ADV.ecu">
-            <div class="text">
-              <h2>Controlador Dashboard</h2>
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem odit doloribus dolore ducimus consequuntur obcaecati?</p>
-              <button>Detalles</button>
+    <main>
+      <div class="container-fluid">
+        <div class="row min-vh-100">
+          <div class="col-xl-5 col-lg-6 col-md-8 p-5 p-lg-4 mx-auto d-flex align-items-center">
+            <div>
+              <p> <img src="../images/logoConst.png" alt="Template Logo" class="img-fluid"></p>
+              <h1 class="text-uppercase text-white">En construccion.</h1>
+              <p class="lead text-white">Estamos trabajando con pasion para traerte lo mejor.</p>
+              <p class="text-white">Te invitamos a seguirnos en nuestras redes sociales, también nos pueden contactar llenado el formulario de contacto, nos comunicaremos tan pronto nos sea posible!a</p>
+              <a class="btn btn-light btn-lg main__btn-propio" href="/pages/contacto.html" role="button">Contacto</a>
+              <p class="credit">&copy; 2020 Daniel Gaviria | Template by <a href="https://bootstrapious.com/landing-pages" class="external text-reset">Bootstrapious</a>  </p>
+              <!-- Please do not remove the backlink to bootstrapious unless your Attribution-Free License @ https://bootstrapious.com/attribution-free-license. It is part of the license conditions. Thanks for understanding :) -->
             </div>
-          </article>
-
-          <article class="card">
-            <img src="../images/moto3.JPG" alt="ADV.ecm">
-            <div class="text">
-              <h2>Electronic Control Module</h2>
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit minima eius sequi saepe dolores, rem aut. Nisi, est!</p>
-              <button>Detalles</button>
-            </div>
-          </article>
-
-          <article class="card">
-            <img src="../images/tablerolanding.JPG" alt="ADV.ecu">
-            <div class="text">
-              <h2>Dashboard Digital</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam earum voluptatem asperiores?</p>
-              <button>Detalles</button>
-            </div>
-          </article>
+          </div>
+          <div style="background-image: url('../images/construccion.jpg');" class="col-xl-6 col-lg-5 col-md-4 intro-right"></div>
+        </div>
+      </div>
+      
 
     </main>
     
@@ -162,6 +155,13 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="../js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+
 </body>
 
 </html>
+
+
+
+<!--<p class="social"><a href="#" class="external facebook"><i class="fab fa-facebook-f"></i></a><a href="#" class="external youtube"><i class="fab fa-youtube"></i></a><a href="#" class="external twitter"><i class="fab fa-twitter"></i></a><a href="#" title="" class="external instagram"><i class="fab fa-instagram"></i></a><a href="#" class="email"><i class="fa fa-envelope"> </i></a></p>
